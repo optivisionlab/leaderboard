@@ -12,13 +12,14 @@ export default function Home() {
               <a href="#" className="hover:text-gray-300">Cuộc thi</a>
               <a href="#" className="hover:text-gray-300">Bảng xếp hạng</a>
               <a href="/register" className="hover:text-gray-300">Đăng ký</a>
-              <a href="#" className="hover:text-gray-300">Đăng nhập</a>
+              <a href="/login" className="hover:text-gray-300">Đăng nhập</a>
             </div>
           </div>
         </nav>
       </header>
 
-      <main className="flex-grow container mx-auto px-6 py-10 bg-white text-black">
+      <main className="flex-grow bg-white text-black">
+        <div className="container mx-auto px-6 py-10">
         <section className="text-center">
           <h1 className="text-4xl font-bold mb-3">Chào mừng đến với HaUI OptivisionLab</h1>
           <p className="text-base text-gray-600">
@@ -52,6 +53,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        </div>
       </main>
 
       <footer className="bg-black text-white">
